@@ -1,0 +1,8 @@
+{
+  "error": {
+	"code": 4001,
+	"type": "ENQUIRY_LIMIT_EXCEEDED",
+	"message": "Sorry! You may only make 3 enquiries per listing daily. Meanwhile you may use Chat to continue a conversation.",
+	"params": {}
+  }
+}
