@@ -1,0 +1,267 @@
+{
+    "quota": 30,
+    "properties": [
+      {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 1",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=0",
+          "type": "TYPE_SALE"
+        }
+      } , {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 2",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=3",
+          "type": "TYPE_SALE"
+        }
+      }, {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 3",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=12",
+          "type": "TYPE_SALE"
+        }
+      } , {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 4",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=4",
+          "type": "TYPE_SALE"
+        }
+      },      {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 1",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=0",
+          "type": "TYPE_SALE"
+        }
+      } , {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 2",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=3",
+          "type": "TYPE_SALE"
+        }
+      }, {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 3",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=12",
+          "type": "TYPE_SALE"
+        }
+      } , {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 4",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=4",
+          "type": "TYPE_SALE"
+        }
+      },      {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 1",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=0",
+          "type": "TYPE_SALE"
+        }
+      } , {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 2",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=3",
+          "type": "TYPE_SALE"
+        }
+      }, {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 3",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=12",
+          "type": "TYPE_SALE"
+        }
+      } , {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 4",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=4",
+          "type": "TYPE_SALE"
+        }
+      },      {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 1",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=0",
+          "type": "TYPE_SALE"
+        }
+      } , {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 2",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=3",
+          "type": "TYPE_SALE"
+        }
+      }, {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 3",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=12",
+          "type": "TYPE_SALE"
+        }
+      } , {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 4",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=4",
+          "type": "TYPE_SALE"
+        }
+      },      {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 1",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=0",
+          "type": "TYPE_SALE"
+        }
+      } , {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 2",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=3",
+          "type": "TYPE_SALE"
+        }
+      }, {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 3",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=12",
+          "type": "TYPE_SALE"
+        }
+      } , {
+        "metadata": {
+          "id": "9499-349348-38182948-4932",
+          "portal": "PG",
+          "portal_id": "12353"
+        },
+        "display": {
+          "title": "Nice home 4",
+          "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+          "price_formatted": "$118,800",
+          "image_url": "https://picsum.photos/200/300?image=4",
+          "type": "TYPE_SALE"
+        }
+      }
+    ],
+    "reg_no": ""
+  }

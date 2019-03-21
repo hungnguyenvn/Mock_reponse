@@ -1,0 +1,441 @@
+{
+    "id": "78fc233c-3731-4724-8cdf-143c4ebc696c",
+    "meta": {
+        "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/"
+    },
+    "screens": [
+        {
+            "groups": [
+                {
+                    "fields": [
+                        {
+                            "dependency_rules": [],
+                            "id": "field_0",
+                            "meta": {
+                                "component": "generic_item_grid_view",
+                                "default_value": {
+                                    "items": [
+                                        {
+                                            "action": {
+                                                "deep_link": "carousell://category_home_v2?cc_id=377&category_id=230&journey=main",
+                                                "type": "go_to_deep_link"
+                                            },
+                                            "category_id": "230",
+                                            "cc_id": "377",
+                                            "icon_path": {
+                                                "android": {
+                                                    "hdpi": "property_for_sale@hdpi.png",
+                                                    "mdpi": "property_for_sale@mdpi.png",
+                                                    "xhdpi": "property_for_sale@xhdpi.png",
+                                                    "xxhdpi": "property_for_sale@xxhdpi.png",
+                                                    "xxxhdpi": "property_for_sale@xxxhdpi.png"
+                                                },
+                                                "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                "ios": {
+                                                    "2x": "property_for_sale@2x.png",
+                                                    "3x": "property_for_sale@3x.png"
+                                                },
+                                                "web": "property_for_sale.svg"
+                                            },
+                                            "id": "item_for_sale",
+                                            "title": "For Sale"
+                                        },
+                                        {
+                                            "action": {
+                                                "deep_link": "carousell://category_home_v2?cc_id=376&category_id=229&journey=main",
+                                                "type": "go_to_deep_link"
+                                            },
+                                            "category_id": "229",
+                                            "cc_id": "376",
+                                            "icon_path": {
+                                                "android": {
+                                                    "hdpi": "property_for_rent@hdpi.png",
+                                                    "mdpi": "property_for_rent@mdpi.png",
+                                                    "xhdpi": "property_for_rent@xhdpi.png",
+                                                    "xxhdpi": "property_for_rent@xxhdpi.png",
+                                                    "xxxhdpi": "property_for_rent@xxxhdpi.png"
+                                                },
+                                                "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                "ios": {
+                                                    "2x": "property_for_rent@2x.png",
+                                                    "3x": "property_for_rent@3x.png"
+                                                },
+                                                "web": "property_for_rent.svg"
+                                            },
+                                            "id": "item_for_rent",
+                                            "title": "For Rent"
+                                        },
+                                        {
+                                            "action": {},
+                                            "category_id": "**** CHECK THIS ****",
+                                            "cc_id": "**** CHECK THIS ****",
+                                            "icon_path": {
+                                                "android": {
+                                                    "hdpi": "property_for_project@hdpi.png",
+                                                    "mdpi": "property_for_project@mdpi.png",
+                                                    "xhdpi": "property_for_project@xhdpi.png",
+                                                    "xxhdpi": "property_for_project@xxhdpi.png",
+                                                    "xxxhdpi": "property_for_project@xxxhdpi.png"
+                                                },
+                                                "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                "ios": {
+                                                    "2x": "property_for_project@2x.png",
+                                                    "3x": "property_for_project@3x.png"
+                                                },
+                                                "web": "property_for_project.svg"
+                                            },
+                                            "id": "item_projects",
+                                            "title": "Projects"
+                                        }
+                                    ]
+                                }
+                            },
+                            "ui_rules": {
+                                "fit_width": true,
+                                "items_per_row": 3,
+                                "visible": true
+                            },
+                            "validation_rules": []
+                        }
+                    ],
+                    "id": "group_0",
+                    "meta": {
+                        "group_name": "first_row_property_item_grid",
+                        "visible": true
+                    },
+                    "ui_rules": {
+                        "footer_visible": false
+                    }
+                },
+                {
+                    "fields": [
+                        {
+                            "dependency_rules": [],
+                            "id": "field_1",
+                            "meta": {
+                                "component": "listing_slider_view",
+                                "default_value": {
+                                    "collection_id": "1584",
+                                    "filters": [
+                                        {
+                                            "display_name": "5 Bedrooms",
+                                            "field_name": "property_bedrooms",
+                                            "filter_type": "id_or_keyword",
+                                            "proto_field_name": "property_bedrooms",
+                                            "value": "BEDROOMS_5_BEDROOMS"
+                                        }
+                                    ],
+                                    "query_param": "",
+                                    "sort_param": {
+                                        "display_name": "Recent",
+                                        "field_name": "sort_by",
+                                        "proto_field_name": "sort_by",
+                                        "value": "time_created,descending"
+                                    }
+                                },
+                                "field_name": "recommended_daily"
+                            },
+                            "ui_rules": {
+                                "explore_button_text": "Show all {{{count}}} new homes",
+                                "visible": true
+                            },
+                            "validation_rules": []
+                        }
+                    ],
+                    "id": "group_1",
+                    "meta": {
+                        "group_name": "recommended_daily",
+                        "header": "Tag Recommended For You Label",
+                        "theme": "white",
+                        "visible": true
+                    },
+                    "ui_rules": {
+                        "footer_visible": false,
+                        "theme": "white"
+                    }
+                },
+                {
+                    "fields": [
+                        {
+                            "dependency_rules": [],
+                            "id": "field_2",
+                            "meta": {
+                                "api": {
+                                    "api_path": "/vs/2.0/catalogues/",
+                                    "method": "GET",
+                                    "param": {
+                                        "cc_id": "**** CHECK THIS ****",
+                                        "limit": 5
+                                    },
+                                    "type": "REST"
+                                },
+                                "component": "catalogue_collection",
+                                "field_name": "catalogues"
+                            },
+                            "ui_rules": {
+                                "action": {
+                                    "action_id": "**** CHECK THIS ****",
+                                    "deep_link": "https://carousell.com/categories/**** CHECK THIS ****",
+                                    "type": "go_to_deep_link"
+                                },
+                                "button_text": "Show all {{{count}}} projects",
+                                "visible": true
+                            },
+                            "validation_rules": []
+                        }
+                    ],
+                    "id": "group_2",
+                    "meta": {
+                        "group_name": "catalogue_collection",
+                        "header": "Latest Project Launches",
+                        "theme": "white",
+                        "visible": true
+                    },
+                    "ui_rules": {
+                        "footer_visible": false,
+                        "theme": "white"
+                    }
+                },
+                {
+                    "fields": [
+                        {
+                            "dependency_rules": [],
+                            "id": "field_3",
+                            "meta": {
+                                "component": "generic_slider",
+                                "default_value": {
+                                    "items": [
+                                        {
+                                            "action": {
+                                                "deep_link": "https://carousell.com/smart_form/loan_calculate/?journey=form",
+                                                "type": "go_to_deep_link"
+                                            },
+                                            "icon_path": {
+                                                "android": {
+                                                    "hdpi": "home_loan_calc@hdpi.png",
+                                                    "mdpi": "home_loan_calc@mdpi.png",
+                                                    "xhdpi": "home_loan_calc@xhdpi.png",
+                                                    "xxhdpi": "home_loan_calc@xxhdpi.png",
+                                                    "xxxhdpi": "home_loan_calc@xxxhdpi.png"
+                                                },
+                                                "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                "ios": {
+                                                    "2x": "home_loan_calc@2x.png",
+                                                    "3x": "home_loan_calc@3x.png"
+                                                },
+                                                "web": "home_loan_calc.svg"
+                                            },
+                                            "style": {
+                                                "background_color": "#E8F4E5"
+                                            },
+                                            "title": "Home Loan Calculator"
+                                        },
+                                        {
+                                            "action": {
+                                                "deep_link": "https://carousell.com/categories/1306/",
+                                                "type": "go_to_deep_link"
+                                            },
+                                            "icon_path": {
+                                                "android": {
+                                                    "hdpi": "home_services_icon@hdpi.png",
+                                                    "mdpi": "home_services_icon@mdpi.png",
+                                                    "xhdpi": "home_services_icon@xhdpi.png",
+                                                    "xxhdpi": "home_services_icon@xxhdpi.png",
+                                                    "xxxhdpi": "home_services_icon@xxxhdpi.png"
+                                                },
+                                                "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                "ios": {
+                                                    "2x": "home_services_icon@2x.png",
+                                                    "3x": "home_services_icon@3x.png"
+                                                },
+                                                "web": "home_services_icon.svg"
+                                            },
+                                            "style": {
+                                                "background_color": "#FFFAE7"
+                                            },
+                                            "title": "Home Services"
+                                        },
+                                        {
+                                            "action": {
+                                                "deep_link": "https://carousell.com/categories/13/",
+                                                "type": "go_to_deep_link"
+                                            },
+                                            "icon_path": {
+                                                "android": {
+                                                    "hdpi": "furnitures_icon@hdpi.png",
+                                                    "mdpi": "furnitures_icon@mdpi.png",
+                                                    "xhdpi": "furnitures_icon@xhdpi.png",
+                                                    "xxhdpi": "furnitures_icon@xxhdpi.png",
+                                                    "xxxhdpi": "furnitures_icon@xxxhdpi.png"
+                                                },
+                                                "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                "ios": {
+                                                    "2x": "furnitures_icon@2x.png",
+                                                    "3x": "furnitures_icon@3x.png"
+                                                },
+                                                "web": "furnitures_icon.svg"
+                                            },
+                                            "style": {
+                                                "background_color": "#FFF0DD"
+                                            },
+                                            "title": "Shop Furniture"
+                                        }
+                                    ]
+                                }
+                            },
+                            "ui_rules": {
+                                "visible": true
+                            },
+                            "validation_rules": []
+                        }
+                    ],
+                    "id": "group_3",
+                    "meta": {
+                        "group_name": "recommended_daily",
+                        "header": "Recently Added",
+                        "theme": "white",
+                        "visible": true
+                    },
+                    "ui_rules": {
+                        "footer_visible": false,
+                        "theme": "white"
+                    }
+                },
+                {
+                    "fields": [
+                        {
+                            "dependency_rules": [],
+                            "id": "field_4",
+                            "meta": {
+                                "api": {},
+                                "component": "listing_grid_view",
+                                "default_value": {
+                                    "category_id": "1584",
+                                    "explore_button_text": "Show all {{{total}}} homes"
+                                },
+                                "field_name": "recently_added"
+                            },
+                            "ui_rules": {
+                                "visible": true
+                            },
+                            "validation_rules": []
+                        }
+                    ],
+                    "id": "group_4",
+                    "meta": {
+                        "group_name": "recently_added",
+                        "header": "Recently Added",
+                        "theme": "white",
+                        "visible": true
+                    },
+                    "ui_rules": {
+                        "footer_visible": false,
+                        "theme": "white"
+                    }
+                },
+                {
+                    "fields": [
+                        {
+                            "dependency_rules": [],
+                            "id": "field_5",
+                            "meta": {
+                                "api": {
+                                    "api_path": "/api/3.0/special-collections/",
+                                    "method": "GET",
+                                    "param": {
+                                        "cc_id": "73",
+                                        "hashtag": "#top"
+                                    },
+                                    "type": "REST"
+                                },
+                                "component": "extend_spc_scroll_view",
+                                "default_value": {
+                                    "cc_id": "73"
+                                }
+                            },
+                            "ui_rules": {
+                                "visible": true
+                            },
+                            "validation_rules": []
+                        }
+                    ],
+                    "id": "group_5",
+                    "meta": {
+                        "group_name": "spc_scroll_collections",
+                        "header": "Collections You May Like",
+                        "theme": "white",
+                        "visible": true
+                    },
+                    "ui_rules": {
+                        "footer_visible": false,
+                        "theme": "white"
+                    }
+                },
+                {
+                    "fields": [
+                        {
+                            "dependency_rules": [],
+                            "id": "field_6",
+                            "meta": {
+                                "api": {
+                                    "api_path": "/api/3.0/special-collections/",
+                                    "method": "GET",
+                                    "param": {
+                                        "cc_id": "73",
+                                        "hashtag": "#bottom"
+                                    },
+                                    "type": "REST"
+                                },
+                                "component": "extend_spc_scroll_view",
+                                "default_value": {
+                                    "cc_id": "73"
+                                }
+                            },
+                            "ui_rules": {
+                                "visible": true
+                            },
+                            "validation_rules": []
+                        }
+                    ],
+                    "id": "group_6",
+                    "meta": {
+                        "group_name": "spc_scroll_guides",
+                        "header": "Articles and Guides",
+                        "theme": "white",
+                        "visible": true
+                    },
+                    "ui_rules": {
+                        "footer_visible": false,
+                        "theme": "white"
+                    }
+                },
+                {
+                    "fields": [
+                        {
+                            "dependency_rules": [],
+                            "id": "field_7",
+                            "meta": {
+                                "component": "bottom_paragragh_view",
+                                "default_value": "All content displayed",
+                                "field_name": "bottom_paragragh_view_1"
+                            },
+                            "ui_rules": {
+                                "top_separator_visible": true,
+                                "visible": true
+                            },
+                            "validation_rules": []
+                        }
+                    ],
+                    "id": "group_7",
+                    "meta": {
+                        "group_name": "end_screen",
+                        "visible": true
+                    },
+                    "ui_rules": {}
+                }
+            ],
+            "id": "screen_0",
+            "ui_rules": {}
+        }
+    ]
+}

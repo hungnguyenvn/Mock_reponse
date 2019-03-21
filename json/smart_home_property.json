@@ -1,0 +1,316 @@
+{
+    "id": "78fc233c-3731-4724-8cdf-143c4ebc696c",
+    "meta": {
+        "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/"
+    },
+    "screens": [
+        {
+            "groups": [
+                {
+                    "fields": [
+                        {
+                            "dependency_rules": [],
+                            "id": "field_1",
+                            "meta": {
+                                "component": "listing_slider_view",
+                                "default_value": {
+                                    "collection_id": "1584",
+                                    "filters": [
+                                        {
+                                            "display_name": "5 Bedrooms",
+                                            "field_name": "property_bedrooms",
+                                            "filter_type": "id_or_keyword",
+                                            "proto_field_name": "property_bedrooms",
+                                            "value": "BEDROOMS_5_BEDROOMS"
+                                        }
+                                    ],
+                                    "query_param": "",
+                                    "sort_param": {
+                                        "display_name": "Recent",
+                                        "field_name": "sort_by",
+                                        "proto_field_name": "sort_by",
+                                        "value": "time_created,descending"
+                                    }
+                                },
+                                "field_name": "recommended_daily"
+                            },
+                            "ui_rules": {
+                                "explore_button_text": "Show all {{{count}}} new homes",
+                                "visible": true
+                            },
+                            "validation_rules": []
+                        }
+                    ],
+                    "id": "group_1",
+                    "meta": {
+                        "group_name": "recommended_daily",
+                        "header": "Tag Recommended For You Label",
+                        "theme": "white",
+                        "visible": true
+                    },
+                    "ui_rules": {
+                        "footer_visible": false,
+                        "theme": "white"
+                    }
+                },
+                {
+                        "fields": [
+                            
+                            {
+                                "dependency_rules": [],
+                                "id": "field_3",
+                                "meta": {
+                                    "component": "generic_slider",
+                                    "default_value": {
+                                        "items": [
+                                            {
+                                                "action": {
+                                                    "deep_link": "https://carousell.com/smart_form/loan_calculate/?journey=form",
+                                                    "type": "go_to_deep_link"
+                                                },
+                                                "icon_path": {
+                                                    "android": {
+                                                        "hdpi": "home_loan_calc@hdpi.png",
+                                                        "mdpi": "home_loan_calc@mdpi.png",
+                                                        "xhdpi": "home_loan_calc@xhdpi.png",
+                                                        "xxhdpi": "home_loan_calc@xxhdpi.png",
+                                                        "xxxhdpi": "home_loan_calc@xxxhdpi.png"
+                                                    },
+                                                    "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                    "ios": {
+                                                        "2x": "home_loan_calc@2x.png",
+                                                        "3x": "home_loan_calc@3x.png"
+                                                    },
+                                                    "web": "home_loan_calc.svg"
+                                                },
+                                                "style": {
+                                                    "background_color": "#800000"
+                                                },
+                                                "title": "Home Loan Calculator"
+                                            },
+                                            {
+                                                "action": {
+                                                    "deep_link": "https://carousell.com/categories/1306/",
+                                                    "type": "go_to_deep_link"
+                                                },
+                                                "icon_path": {
+                                                    "android": {
+                                                        "hdpi": "home_services_icon@hdpi.png",
+                                                        "mdpi": "home_services_icon@mdpi.png",
+                                                        "xhdpi": "home_services_icon@xhdpi.png",
+                                                        "xxhdpi": "home_services_icon@xxhdpi.png",
+                                                        "xxxhdpi": "home_services_icon@xxxhdpi.png"
+                                                    },
+                                                    "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                    "ios": {
+                                                        "2x": "home_services_icon@2x.png",
+                                                        "3x": "home_services_icon@3x.png"
+                                                    },
+                                                    "web": "home_services_icon.svg"
+                                                },
+                                                "style": {
+                                                    "background_color": "#FFFAE7"
+                                                },
+                                                "title": "Home Services"
+                                            },
+                                            {
+                                                "action": {
+                                                    "deep_link": "https://carousell.com/categories/13/",
+                                                    "type": "go_to_deep_link"
+                                                },
+                                                "icon_path": {
+                                                    "android": {
+                                                        "hdpi": "furnitures_icon@hdpi.png",
+                                                        "mdpi": "furnitures_icon@mdpi.png",
+                                                        "xhdpi": "furnitures_icon@xhdpi.png",
+                                                        "xxhdpi": "furnitures_icon@xxhdpi.png",
+                                                        "xxxhdpi": "furnitures_icon@xxxhdpi.png"
+                                                    },
+                                                    "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                    "ios": {
+                                                        "2x": "furnitures_icon@2x.png",
+                                                        "3x": "furnitures_icon@3x.png"
+                                                    },
+                                                    "web": "furnitures_icon.svg"
+                                                },
+                                                "style": {
+                                                    "background_color": "#FFF0DD"
+                                                },
+                                                "title": "Shop Furniture"
+                                            }, {
+                                                "action": {
+                                                    "deep_link": "https://carousell.com/smart_form/loan_calculate/?journey=form",
+                                                    "type": "go_to_deep_link"
+                                                },
+                                                "icon_path": {
+                                                    "android": {
+                                                        "hdpi": "home_loan_calc@hdpi.png",
+                                                        "mdpi": "home_loan_calc@mdpi.png",
+                                                        "xhdpi": "home_loan_calc@xhdpi.png",
+                                                        "xxhdpi": "home_loan_calc@xxhdpi.png",
+                                                        "xxxhdpi": "home_loan_calc@xxxhdpi.png"
+                                                    },
+                                                    "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                    "ios": {
+                                                        "2x": "home_loan_calc@2x.png",
+                                                        "3x": "home_loan_calc@3x.png"
+                                                    },
+                                                    "web": "home_loan_calc.svg"
+                                                },
+                                                "style": {
+                                                    "background_color": "#800000"
+                                                },
+                                                "title": "Home Loan Calculator"
+                                            },
+                                            {
+                                                "action": {
+                                                    "deep_link": "https://carousell.com/categories/1306/",
+                                                    "type": "go_to_deep_link"
+                                                },
+                                                "icon_path": {
+                                                    "android": {
+                                                        "hdpi": "home_services_icon@hdpi.png",
+                                                        "mdpi": "home_services_icon@mdpi.png",
+                                                        "xhdpi": "home_services_icon@xhdpi.png",
+                                                        "xxhdpi": "home_services_icon@xxhdpi.png",
+                                                        "xxxhdpi": "home_services_icon@xxxhdpi.png"
+                                                    },
+                                                    "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                    "ios": {
+                                                        "2x": "home_services_icon@2x.png",
+                                                        "3x": "home_services_icon@3x.png"
+                                                    },
+                                                    "web": "home_services_icon.svg"
+                                                },
+                                                "style": {
+                                                    "background_color": "#FFFAE7"
+                                                },
+                                                "title": "Home Services"
+                                            },
+                                            {
+                                                "action": {
+                                                    "deep_link": "https://carousell.com/categories/13/",
+                                                    "type": "go_to_deep_link"
+                                                },
+                                                "icon_path": {
+                                                    "android": {
+                                                        "hdpi": "furnitures_icon@hdpi.png",
+                                                        "mdpi": "furnitures_icon@mdpi.png",
+                                                        "xhdpi": "furnitures_icon@xhdpi.png",
+                                                        "xxhdpi": "furnitures_icon@xxhdpi.png",
+                                                        "xxxhdpi": "furnitures_icon@xxxhdpi.png"
+                                                    },
+                                                    "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                    "ios": {
+                                                        "2x": "furnitures_icon@2x.png",
+                                                        "3x": "furnitures_icon@3x.png"
+                                                    },
+                                                    "web": "furnitures_icon.svg"
+                                                },
+                                                "style": {
+                                                    "background_color": "#FFF0DD"
+                                                },
+                                                "title": "Shop Furniture"
+                                            }, {
+                                                "action": {
+                                                    "deep_link": "https://carousell.com/smart_form/loan_calculate/?journey=form",
+                                                    "type": "go_to_deep_link"
+                                                },
+                                                "icon_path": {
+                                                    "android": {
+                                                        "hdpi": "home_loan_calc@hdpi.png",
+                                                        "mdpi": "home_loan_calc@mdpi.png",
+                                                        "xhdpi": "home_loan_calc@xhdpi.png",
+                                                        "xxhdpi": "home_loan_calc@xxhdpi.png",
+                                                        "xxxhdpi": "home_loan_calc@xxxhdpi.png"
+                                                    },
+                                                    "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                    "ios": {
+                                                        "2x": "home_loan_calc@2x.png",
+                                                        "3x": "home_loan_calc@3x.png"
+                                                    },
+                                                    "web": "home_loan_calc.svg"
+                                                },
+                                                "style": {
+                                                    "background_color": "#800000"
+                                                },
+                                                "title": "Home Loan Calculator"
+                                            },
+                                            {
+                                                "action": {
+                                                    "deep_link": "https://carousell.com/categories/1306/",
+                                                    "type": "go_to_deep_link"
+                                                },
+                                                "icon_path": {
+                                                    "android": {
+                                                        "hdpi": "home_services_icon@hdpi.png",
+                                                        "mdpi": "home_services_icon@mdpi.png",
+                                                        "xhdpi": "home_services_icon@xhdpi.png",
+                                                        "xxhdpi": "home_services_icon@xxhdpi.png",
+                                                        "xxxhdpi": "home_services_icon@xxxhdpi.png"
+                                                    },
+                                                    "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                    "ios": {
+                                                        "2x": "home_services_icon@2x.png",
+                                                        "3x": "home_services_icon@3x.png"
+                                                    },
+                                                    "web": "home_services_icon.svg"
+                                                },
+                                                "style": {
+                                                    "background_color": "#FFFAE7"
+                                                },
+                                                "title": "Home Services"
+                                            },
+                                            {
+                                                "action": {
+                                                    "deep_link": "https://carousell.com/categories/13/",
+                                                    "type": "go_to_deep_link"
+                                                },
+                                                "icon_path": {
+                                                    "android": {
+                                                        "hdpi": "furnitures_icon@hdpi.png",
+                                                        "mdpi": "furnitures_icon@mdpi.png",
+                                                        "xhdpi": "furnitures_icon@xhdpi.png",
+                                                        "xxhdpi": "furnitures_icon@xxhdpi.png",
+                                                        "xxxhdpi": "furnitures_icon@xxxhdpi.png"
+                                                    },
+                                                    "base_cdn_url": "https://sl3-cdn.karousell.com/homescreens/property_73/",
+                                                    "ios": {
+                                                        "2x": "furnitures_icon@2x.png",
+                                                        "3x": "furnitures_icon@3x.png"
+                                                    },
+                                                    "web": "furnitures_icon.svg"
+                                                },
+                                                "style": {
+                                                    "background_color": "#FFF0DD"
+                                                },
+                                                "title": "Shop Furniture"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "ui_rules": {
+                                    "visible": true
+                                },
+                                "validation_rules": []
+                            }
+                        ],
+                        "id": "group_3",
+                        "meta": {
+                            "group_name": "recommended_daily",
+                            "header": "Recently Added",
+                            "theme": "white",
+                            "visible": true
+                        },
+                        "ui_rules": {
+                            "footer_visible": false,
+                            "theme": "white"
+                        }
+                    }
+                
+            ],
+            "id": "screen_0",
+            "ui_rules": {}
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "property": {
+      "metadata": {
+        "id": "9499-349348-38182948-4932",
+        "portal": "PG",
+        "portal_id": "12353"
+      },
+      "display": {
+        "title": "Nice home",
+        "subtitle": "3 Beds • 2 Baths • 157 sqm • $1,472 PSF",
+        "price_formatted": "$118,800",
+        "image_url": "www.somecdn.com/some_asset_url.jpg",
+        "type": "TYPE_SALE"
+      },
+      "details": [
+        {
+          "key": "Type",
+          "value": "HDB"
+        },
+        {
+          "key": "Model",
+          "value": "-"
+        },
+        {
+          "key": "District",
+          "value": "D27 Macpherson / Potong Pasir"
+        },
+        {
+          "key": "Block",
+          "value": "118"
+        },
+        {
+          "key": "Street",
+          "value": "118 Woodlands Avenue 10 Street 13"
+        },
+        {
+          "key": "Postal Code",
+          "value": "560118"
+        }
+      ]
+    }
+  }
